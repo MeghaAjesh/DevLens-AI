@@ -77,8 +77,8 @@ export default function Home() {
           <Logo />
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
             <a href="#features" className="hover:text-white transition-colors duration-200">Features</a>
-            <a href="#" className="hover:text-white transition-colors duration-200">Docs</a>
-            <a href="#" className="hover:text-white transition-colors duration-200">Pricing</a>
+            {/* <a href="#" className="hover:text-white transition-colors duration-200">Docs</a>
+            <a href="#" className="hover:text-white transition-colors duration-200">Pricing</a> */}
           </div>
           <Link href="/sign-in" className="flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold transition-all duration-200 hover:scale-105 active:scale-95"
             style={{ background: `linear-gradient(135deg, ${accentCoral}, #ff8e53)`, boxShadow: `0 0 20px rgba(255,107,107,0.35)` }}>
